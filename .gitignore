@@ -28,3 +28,6 @@ reports/*
 /resources/
 resources/
 */resources/*
+*.properties
+.properties
+/resources/*.properties
