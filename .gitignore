@@ -23,5 +23,5 @@ test-output/*
 */reports/*
 reports/*
 */log/*
-log/*
+/log/*
 reports/*
