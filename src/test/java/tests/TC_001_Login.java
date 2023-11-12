@@ -1,8 +1,6 @@
 package tests;
 import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 import org.testng.annotations.AfterTest;
 import pages.*;
 import testbase.BaseTest;
@@ -30,9 +28,9 @@ public class TC_001_Login extends BaseTest{
 			
 			logs.info("Validating window title after successful login");
 			String actualTitle = driver.getTitle();
-			AssertJUnit.assertEquals(actualTitle, windowTitleAfterLogin);	
+			Assert.assertEquals(actualTitle, windowTitleAfterLogin);	
 		}catch(Exception ex) {
-			AssertJUnit.fail();
+			Assert.fail();
 		}
 		logs.info("*** Login Test Execution Finished ***");
 	}

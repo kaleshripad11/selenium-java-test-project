@@ -55,6 +55,9 @@ public class ReportManager implements ITestListener {
 		// TODO Auto-generated method stub
 		extentTest = extent.createTest(result.getName());
 		extentTest.log(Status.FAIL, "Failed Test : " + result.getName());
+		
+		extentTest.log(Status.FAIL, "Failed Test : " + result.getThrowable());
+		
 		try {
 			String failedTestScreen = new BaseTest().captureScreenShots(result.getName());
 			extentTest.addScreenCaptureFromPath(failedTestScreen);
@@ -62,7 +65,7 @@ public class ReportManager implements ITestListener {
 		catch(Exception e){
 			e.getMessage();
 		}
-		extentTest.log(Status.FAIL, "Failed Test : " + result.getThrowable());
+		
 	}
 	
 	@Override

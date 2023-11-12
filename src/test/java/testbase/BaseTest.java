@@ -73,18 +73,27 @@ public class BaseTest {
 	}
 	
 	public String captureScreenShots(String testName) throws IOException {
-		String timestamp = new SimpleDateFormat("yyyy.MM.dd-HH.mm.ss").format(new Date());  //Generate timestamp
-		TakesScreenshot takess = (TakesScreenshot)driver; 	// Typecasting webdriver variable
+		
+		//Generate time stamp
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd-HH.mm.ss").format(new Date());  
+		// Type casting webdriver variable
+		TakesScreenshot takess = (TakesScreenshot)driver; 	
+		
+		// Generate output file
 		File source = takess.getScreenshotAs(OutputType.FILE);
-		String dest = System.getProperty("user.dir")+"//screenshots//"+testName+"-"+timestamp+".png";
-		//System.out.println(System.getProperty("user.dir")+"/screenshots/"+testName+"-"+timestamp+".png");
+		
+		
+		// Set file path
+		File destination = new File(System.getProperty("user.dir")+"/screenshots/" + testName+ "-"+ timeStamp + ".png");
+				// System.getProperty("user.dir")+"/screenshots/" + testName+ "-"+ timeStamp + ".png";
+		
 		try {
-			FileUtils.copyFile(source, new File(dest));
+			FileUtils.copyFile(source,destination);
 		}
 		catch(Exception ex) {
 			ex.getMessage();
 		}
-		return dest;
+		return destination.toString();
 	}
 	
 //	@AfterTest
