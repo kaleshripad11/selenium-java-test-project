@@ -7,8 +7,7 @@ import org.testng.annotations.*;
 public class TC_003_SearchPatients extends BaseTest{
 
 	public Page_Home ph;
-	
-	
+		
 	@Test
 	void testPatientSearchBasic() {
 		ph = new Page_Home(driver);
