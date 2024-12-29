@@ -36,22 +36,22 @@ public class TC_001_Login extends BaseTest{
 	}
 	
 	
-//	@Test()
-//	void  testLoginWithInvalidCredentials() {
-//		pl1 = new Page_Login(driver);
-//		String errorMsg = "Invalid username/password. Please try again.";
-//		
-//		try {
-//			pl1.enterUserName("Admin");
-//			pl1.enterPassword("Admin@123");
-//			pl1.selectSessionLocation();
-//			pl1.clickLoginButton();
-//			Assert.assertEquals(pl1.errorMessage(), errorMsg);
-//			
-//		}catch(Exception ex) {
-//			Assert.fail();
-//		}
-//	}
+	@Test()
+	void  testLoginWithInvalidCredentials() {
+		logs.info("*** Login Test Execution Finished ***");
+		pl = new Page_Login(driver);
+		String errorMsg = "Invalid username/password. Please try again.";
+		try {
+			pl.enterUserName("Admin");
+			pl.enterPassword("Admin@123");
+			pl.selectSessionLocation();
+			pl.clickLoginButton();
+			Assert.assertEquals(pl.errorMessage(), errorMsg);
+		}catch(Exception ex) {
+			Assert.fail();
+		}
+		logs.info("*** Login Test Execution Finished ***");
+	}
 	
 	
 	

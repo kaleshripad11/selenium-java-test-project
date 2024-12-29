@@ -301,3 +301,63 @@
 16:43:29.590 [main] INFO  tests.TC_001_Login - Selecting session location
 16:43:30.342 [main] INFO  tests.TC_001_Login - Clicking login button
 16:43:31.982 [main] INFO  tests.TC_001_Login - Validating window title after successful login
+12:34:09.384 [main] INFO  tests.TC_001_Login - *** Launching chrome browser ***
+12:34:29.960 [main] INFO  tests.TC_001_Login - *** Starting Login Test Execution ***
+12:34:30.009 [main] INFO  tests.TC_001_Login - Entering credentials
+12:34:31.358 [main] INFO  tests.TC_001_Login - Selecting session location
+12:34:32.272 [main] INFO  tests.TC_001_Login - Clicking login button
+12:34:35.733 [main] INFO  tests.TC_001_Login - Validating window title after successful login
+12:34:35.751 [main] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+12:36:30.040 [main] INFO  tests.TC_001_Login - *** Launching chrome browser ***
+12:36:50.728 [main] INFO  tests.TC_001_Login - *** Starting Login Test Execution ***
+12:36:50.730 [main] INFO  tests.TC_001_Login - Entering credentials
+12:36:50.965 [main] INFO  tests.TC_001_Login - Selecting session location
+12:36:51.173 [main] INFO  tests.TC_001_Login - Clicking login button
+12:36:54.011 [main] INFO  tests.TC_001_Login - Validating window title after successful login
+12:36:54.027 [main] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+12:39:13.188 [main] INFO  tests.TC_001_Login - *** Launching chrome browser ***
+12:39:35.545 [main] INFO  tests.TC_001_Login - *** Starting Login Test Execution ***
+12:39:35.547 [main] INFO  tests.TC_001_Login - Entering credentials
+12:41:48.672 [main] INFO  tests.TC_001_Login - *** Launching chrome browser ***
+12:42:04.581 [main] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+12:42:08.960 [main] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+12:42:08.982 [main] INFO  tests.TC_001_Login - *** Starting Login Test Execution ***
+12:42:08.983 [main] INFO  tests.TC_001_Login - Entering credentials
+12:42:09.288 [main] INFO  tests.TC_001_Login - Selecting session location
+12:42:09.476 [main] INFO  tests.TC_001_Login - Clicking login button
+12:42:12.866 [main] INFO  tests.TC_001_Login - Validating window title after successful login
+12:42:12.887 [main] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:43:08.791 [TestNG-tests-3] INFO  tests.TC_001_Login - *** Launching firefox browser ***
+13:43:17.879 [TestNG-tests-2] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:43:19.389 [TestNG-tests-2] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:43:19.392 [TestNG-tests-2] INFO  tests.TC_001_Login - *** Starting Login Test Execution ***
+13:43:19.392 [TestNG-tests-2] INFO  tests.TC_001_Login - Entering credentials
+13:43:19.441 [TestNG-tests-2] INFO  tests.TC_001_Login - Selecting session location
+13:43:19.478 [TestNG-tests-2] INFO  tests.TC_001_Login - Clicking login button
+13:43:22.068 [TestNG-tests-2] INFO  tests.TC_001_Login - Validating window title after successful login
+13:43:22.076 [TestNG-tests-2] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:43:34.537 [TestNG-tests-1] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:43:35.895 [TestNG-tests-1] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:43:35.896 [TestNG-tests-1] INFO  tests.TC_001_Login - *** Starting Login Test Execution ***
+13:43:35.896 [TestNG-tests-1] INFO  tests.TC_001_Login - Entering credentials
+13:43:35.942 [TestNG-tests-1] INFO  tests.TC_001_Login - Selecting session location
+13:43:35.973 [TestNG-tests-1] INFO  tests.TC_001_Login - Clicking login button
+13:43:38.770 [TestNG-tests-1] INFO  tests.TC_001_Login - Validating window title after successful login
+13:43:38.775 [TestNG-tests-1] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:43:57.257 [TestNG-tests-3] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:43:59.054 [TestNG-tests-3] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:43:59.055 [TestNG-tests-3] INFO  tests.TC_001_Login - *** Starting Login Test Execution ***
+13:43:59.055 [TestNG-tests-3] INFO  tests.TC_001_Login - Entering credentials
+13:43:59.069 [TestNG-tests-3] INFO  tests.TC_001_Login - Selecting session location
+13:43:59.288 [TestNG-tests-3] INFO  tests.TC_001_Login - Clicking login button
+13:44:01.679 [TestNG-tests-3] INFO  tests.TC_001_Login - Validating window title after successful login
+13:44:01.682 [TestNG-tests-3] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:44:22.553 [main] INFO  tests.TC_001_Login - *** Launching chrome browser ***
+13:44:30.431 [main] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:44:31.830 [main] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***
+13:44:31.836 [main] INFO  tests.TC_001_Login - *** Starting Login Test Execution ***
+13:44:31.836 [main] INFO  tests.TC_001_Login - Entering credentials
+13:44:31.883 [main] INFO  tests.TC_001_Login - Selecting session location
+13:44:31.913 [main] INFO  tests.TC_001_Login - Clicking login button
+13:44:34.794 [main] INFO  tests.TC_001_Login - Validating window title after successful login
+13:44:34.801 [main] INFO  tests.TC_001_Login - *** Login Test Execution Finished ***

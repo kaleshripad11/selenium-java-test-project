@@ -31,3 +31,4 @@ resources/
 *.properties
 .properties
 /resources/*.properties
+.idea/*

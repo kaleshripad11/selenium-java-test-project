@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="openmrs">
+	<listeners>
+		<listener class-name="utilities.ReportManager"></listener>
+	</listeners>
+  <test thread-count="2" name="openmrs">
+	<parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.TC_001_Login"/>
+    </classes>
+  </test> <!-- openmrs -->
+</suite> <!-- openmrs -->

@@ -81,10 +81,12 @@ public class BaseTest {
 		
 		// Generate output file
 		File source = takess.getScreenshotAs(OutputType.FILE);
-		
+
+		// Screenshot path
+		String screenshotpath = System.getProperty("user.dir");
 		
 		// Set file path
-		File destination = new File(System.getProperty("user.dir")+"/screenshots/" + testName+ "-"+ timeStamp + ".png");
+		File destination = new File(screenshotpath + testName+ "-"+ timeStamp + ".png");
 				// System.getProperty("user.dir")+"/screenshots/" + testName+ "-"+ timeStamp + ".png";
 		
 		try {
